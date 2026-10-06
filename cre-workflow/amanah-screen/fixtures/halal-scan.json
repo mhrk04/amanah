@@ -1,0 +1,5 @@
+{
+  "note": "TODO(T01): commit the Halal Terminal portfolio scan fixture. Dev runs must not spend live tokens.",
+  "symbols": ["AAPL", "NVDA", "GOOGL", "MSFT", "MSTR"],
+  "results": []
+}

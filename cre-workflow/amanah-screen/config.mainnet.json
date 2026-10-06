@@ -1,0 +1,11 @@
+{
+  "schedule": "0 */6 * * *",
+  "cluster": "mainnet",
+  "chainSelector": "124615329519749607",
+  "programId": "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF",
+  "forwarderProgramId": "7kuEAA3mSC1Tz8gQjnvH7bKFda9xSPRRin9SZbH49cNK",
+  "forwarderState": "jhCjuD4Z3V7HeSUChMRpkRwpw6B9yC63mxDMv8SdLNX",
+  "screeningSource": "live",
+  "useMockRoute": false,
+  "operatorNote": "Single mainnet proof. A human runs: cre workflow simulate amanah-screen --target mainnet --broadcast. Do not give an agent the transmitter key."
+}

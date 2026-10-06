@@ -1,0 +1,32 @@
+# Rust / Anchor
+target/
+.anchor/
+**/*.rs.bk
+test-ledger
+.surfpool
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+.turbo
+
+# Secrets. Keep example files.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Keypairs and wallet files
+keys/
+**/*-keypair.json
+**/id.json
+*.keypair.json
+
+# OS / editor
+.DS_Store
+*.log

@@ -1,0 +1,18 @@
+{
+  "name": "@amanah/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "check-env": "tsx src/check-env.ts"
+  },
+  "dependencies": {
+    "@amanah/common": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.5",
+    "typescript": "~5.9.3"
+  }
+}

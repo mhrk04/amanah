@@ -1,0 +1,18 @@
+# CRE project config. Target names match workflow.yaml.
+# Devnet is the development write target. Mainnet --broadcast is a human step
+# after the single mainnet program deploy. No secret values in this file.
+
+local-simulation:
+  rpcs:
+    - chain-name: solana-devnet
+      url: ${SOLANA_RPC_URL_DEVNET}
+
+devnet:
+  rpcs:
+    - chain-name: solana-devnet
+      url: ${SOLANA_RPC_URL_DEVNET}
+
+mainnet:
+  rpcs:
+    - chain-name: solana-mainnet
+      url: ${SOLANA_RPC_URL_MAINNET}

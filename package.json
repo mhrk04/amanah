@@ -1,0 +1,19 @@
+{
+  "name": "amanah",
+  "private": true,
+  "packageManager": "pnpm@10.33.3",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "pnpm -r --filter \"./app\" --filter \"./keeper\" --filter \"./packages/*\" --filter \"./scripts\" --filter \"./cre-workflow/*\" typecheck",
+    "lint": "eslint .",
+    "dev": "pnpm --filter @amanah/app dev"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.0"
+  }
+}

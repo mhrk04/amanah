@@ -1,0 +1,21 @@
+{
+  "name": "@amanah/keeper",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "keeper": "tsx src/cli.ts"
+  },
+  "dependencies": {
+    "@amanah/common": "workspace:*",
+    "@anchor-lang/core": "1.2.1",
+    "@solana/kit": "8.4.0",
+    "@solana/web3.js": "1.99.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.20.5",
+    "typescript": "~5.9.3"
+  }
+}
