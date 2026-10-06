@@ -1,0 +1,25 @@
+# Devnet write is the development target. Mainnet --broadcast is run by a human.
+
+local-simulation:
+  user-workflow:
+    workflow-name: "amanah-screen-local"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.devnet.json"
+    secrets-path: "../secrets.yaml"
+
+devnet:
+  user-workflow:
+    workflow-name: "amanah-screen-devnet"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.devnet.json"
+    secrets-path: "../secrets.yaml"
+
+mainnet:
+  user-workflow:
+    workflow-name: "amanah-screen-mainnet"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.mainnet.json"
+    secrets-path: "../secrets.yaml"

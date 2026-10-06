@@ -1,0 +1,14 @@
+{
+  "address": "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF",
+  "metadata": {
+    "name": "amanah_vault",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Placeholder IDL. Replace with target/idl/amanah_vault.json after anchor build (T04, T09)."
+  },
+  "instructions": [],
+  "accounts": [],
+  "events": [],
+  "errors": [],
+  "types": []
+}

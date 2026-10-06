@@ -1,0 +1,35 @@
+:root {
+  color-scheme: light;
+  font-family: Georgia, "Iowan Old Style", serif;
+  background: #f6f3ec;
+  color: #1c1915;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 4rem;
+}
+
+a {
+  color: #0f5132;
+}
+
+.banner {
+  background: #1c1915;
+  color: #f6f3ec;
+  padding: 0.75rem 1.25rem;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 0.9rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  margin-bottom: 1.5rem;
+}

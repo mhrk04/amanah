@@ -1,0 +1,25 @@
+[toolchain]
+anchor_version = "1.2.1"
+# Anchor 1.2.0 release notes pair this CLI line with Solana 4.1.2.
+# Design §13 item 8: the exact 1.2.x pairing is still for avm to resolve (T02).
+solana_version = "4.1.2"
+package_manager = "pnpm"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[programs.localnet]
+amanah_vault = "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF"
+mock_route = "GsMGHSe7XUcnw4Xe7bQvpvavdkae3nTorgwPY2RPNvyX"
+
+[programs.devnet]
+amanah_vault = "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF"
+mock_route = "GsMGHSe7XUcnw4Xe7bQvpvavdkae3nTorgwPY2RPNvyX"
+
+[programs.mainnet]
+amanah_vault = "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF"
+mock_route = "GsMGHSe7XUcnw4Xe7bQvpvavdkae3nTorgwPY2RPNvyX"
+
+[scripts]
+test = "cargo test -p amanah-vault --lib"

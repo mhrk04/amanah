@@ -1,0 +1,11 @@
+{
+  "schedule": "0 */6 * * *",
+  "cluster": "devnet",
+  "chainSelector": "16423721717087811551",
+  "programId": "AP9K6Z7bpxhKTPf733sDtvMJyXDfK6ThWwC1xjekEseF",
+  "forwarderProgramId": "7kuEAA3mSC1Tz8gQjnvH7bKFda9xSPRRin9SZbH49cNK",
+  "forwarderState": "5Tipz3yhTBdVsDbaBxZkrp7Gjf3brGq5SKkxReefPMP7",
+  "screeningSource": "fixture",
+  "useMockRoute": true,
+  "operatorNote": "Devnet write comes first. Test mints stand in for xStocks. The swap guard uses mock-route, not Jupiter."
+}
